@@ -1,0 +1,220 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  margin: 0;  
+  padding: 0;    
+  font-family: 'Arial';
+  background-image: url("photographer.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;  
+
+}
+/*--------------------------------------*/
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 7px;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+form.example {
+  display: flex;
+  height: 30px;
+  padding: 24px 0 0 180px;
+  width: 500px;
+
+}
+
+.header {
+  display: flex;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*--------------------------------------*/
+
+
+
+h1 {
+	margin: 0 px;
+	padding: 0px;
+}
+
+}
+.container {
+	border: 2px solid red;
+	width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+.about {
+	color: blue;
+}
+
+.projects{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+}
+
+.projects li{
+  display: flex;
+  padding: 15px 0;
+  margin: 15px 0;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 8px grey;
+}
+
+.projects .section_1 {
+  text-align: center;
+  padding-top:0px;
+  margin: 0px;
+  padding: 0 10px;
+}
+.projects h5{
+  margin: 0;
+  padding: 0;
+}
+.projects img{
+  width: 40px;
+  height: 40px;
+}
+.projects span h4{
+  margin: 0;
+  padding: 0;
+}
+.projects p{
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+.projects a{
+  margin: 0;
+  padding: 0;
+}
+
+.projects .section_3{
+  display: flex;
+  padding-top:7px ;
+}
+.projects .section_3 a{
+  text-decoration: none;
+}
+
+.projects .section_3 a{
+  margin-left: 10px;
+  font-size: 13px;
+  color: blueviolet;
+}
+.projects .section_2 {
+  padding-top: 7px;
+}
+
+.part {
+  display: flex;
+  margin-top: 45px;
+  box-shadow: 0.5px 0.5px 8px grey;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+
+.link1 {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+
+}
+.link1 i {
+  color: #444;
+  padding: 10px 10px 10px 0px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+.part1 p{
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+}
+.part1 h3{
+  text-align: center;
+}
+.part2 {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.part2 .job {
+  font-size: 20px;
+}
+.site {
+  font-size: 28px;
+  margin-top: 35px;
+}
+.part3 {
+  display: flex;
+  align-content: space-around;
+  
+
+}
+
+.part3 {
+  margin-bottom: 0px;
+}
+
+.site1 {
+  margin-left: auto;
+  border-radius: 5px;
+  background: blue;
+  padding: 4px 6px;
+  color: white;
+}
+.part4 h4 {
+  margin-left: 0;
+  text-align: left;
+}
+.section_5 {
+  margin-left: auto;
+  margin-right: 20px;
+  font-size: 25px;
+  padding: 5px;
+}
+.section_5 i {
+  margin-right: 5px;
+}
+
+.part4 ul {
+  margin-top: 0px;
+  padding-top: 0;
+  margin-bottom: 300px;
+}

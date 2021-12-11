@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../styles/menuBar.css">
+    <title>Programmers Blog</title>
+    <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url("photographer.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+
+
+.column {
+  float: left;
+  width: 31.7%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.card .container{
+
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.row {
+    padding: 0 , 100px;
+}
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 550px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+</style>
+</head>
+<body style="background: white; padding:  40px  120px;"  >
+
+    <div class="nav-bar" >
+        <div class="jsBar" >
+           <span class="fa fa-bars" onclick="openbar()"></span>
+        
+         </div>
+         <div class="sidebar" id="sidebar">
+             <div class="close" >
+              <span class="fa fa-times" onclick="closebar()"></span>
+        
+             </div>
+
+
+             <div class="titless">
+                 Menu
+             </div>
+             <ul class="linkss">
+                 <li><a href="../index.html"><i class="fa fa-home" ></i>Home</a></li>
+                 <li><a href="../oynalar/profile.html"><i class="fa fa-user" ></i>Profile</a></li>
+                 <li><a href="../oynalar/downloadPage.html"><i class="fa fa-download" ></i>Download Our Mobile Apps</a></li>
+                 <li><a href="../oynalar/about_us.html"><i class="fa fa-pencil" ></i>About Us</a></li>
+             </ul>
+
+             <div class="social">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube-play"></i>
+                <i class="fa fa-telegram"></i>
+                <i class="fa fa-facebook"></i>
+             </div>
+         </div>
+     </div>
+    </div>
+    
+
+    <div class="about-section">
+          <h1>About Us Page</h1>
+          <p>Do you like programming ? </p>
+          <p>On this Site uploaded News about programming</p>
+    </div>
+    <h1 style="text-align:center">Web Site Creator's</h1>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+             <img src="../img/profile.png" alt="Abdurakhimov" style="width:70%">
+             <div class="container">
+               <h2>Abdurakhimov</h2>
+                <span class="aboutMe">
+                    <p class="title">Node J's Developer</p>
+                    <p>I was born in 21.11.2002 in Namangan. <br> Now I live in Tashkent </p>
+                    <p>bloggerjr77@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </span>
+            </div>
+          </div>
+       </div>
+       <div class="column">
+          <div class="card">
+             <img src="../img/profile.png" alt="Khashimov" style="width:70%">
+             <div class="container">
+               <h2>Khashimov</h2>
+                <span class="aboutMe">
+                    <p class="title">UX/UI Designer</p>
+                    <p>I was born in 11.09.2000 in Andijan. <br> Now I live in Tashkent </p>
+                    <p>khashimov077@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </span>
+            </div>
+          </div>
+       </div>
+       <div class="column">
+          <div class="card">
+             <img src="../img/profile.png" alt="Soliyev" style="width:70%">
+             <div class="container">
+               <h2>Soliyev</h2>
+                <span class="aboutMe">
+                    <p class="title">Fron-End Developer</p>
+                    <p>I was born in 25.05.2002 in Namangan. <br> Now I live in Tashkent </p>
+                    <p>saliyev13@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </span>
+            </div>
+          </div>
+       </div>
+    </div>
+<script type="text/javascript" src="../main.js"></script>
+    
+</body>
+</html>
